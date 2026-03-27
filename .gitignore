@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Xcode / SPM user data
+.swiftpm/xcode/
+*.xcuserstate
