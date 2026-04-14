@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "fbaudiencenetwork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/FBAudienceNetwork",
+      "state" : {
+        "revision" : "0b7bd807fff993055838e6d6a410eddf590c09ac",
+        "version" : "6.21.1"
+      }
+    },
+    {
       "identity" : "mintegraladsdk-swift-package",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package",
@@ -28,12 +37,21 @@
       }
     },
     {
+      "identity" : "mobilefuse-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mobilefuse/mobilefuse-ios-sdk-spm",
+      "state" : {
+        "revision" : "c59b2cb2283c8b0a40ebcea6f12c317444d56638",
+        "version" : "1.11.0"
+      }
+    },
+    {
       "identity" : "nimbus-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/adsbynimbus/nimbus-ios-sdk",
       "state" : {
-        "revision" : "54e7e9d4422e433a3d5269addaa73f71df50d951",
-        "version" : "2.32.3"
+        "revision" : "19cf767ba03206263be6fea937b2a132a4034e45",
+        "version" : "2.33.0"
       }
     },
     {

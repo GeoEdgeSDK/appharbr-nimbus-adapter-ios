@@ -13,15 +13,15 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/adsbynimbus/nimbus-ios-sdk", .upToNextMinor(from: "2.32.0")),
+        .package(url: "https://github.com/adsbynimbus/nimbus-ios-sdk", .upToNextMinor(from: "2.33.0")),
         .package(url: "https://github.com/GeoEdgeSDK/AppHarbrSDK.git", from: "1.23.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", "12.0.0"..<"14.0.0"),
     ],
     targets: [
         .binaryTarget(
             name: "AppHarbrNimbusAdapter",
-            url: "https://geoedge-rum.s3.us-east-1.amazonaws.com/sdk/released_versions/ios-deployment/AppHarbrNimbusAdapter-iOS-2.32.5.0.zip",
-            checksum: "a450fae951e470443faf78fa4fd96a6fe80834ea822ed0386bcc6ee6dfd8017d"
+            url: "https://geoedge-rum.s3.us-east-1.amazonaws.com/sdk/released_versions/ios-deployment/AppHarbrNimbusAdapter-iOS-2.33.0.0.zip",
+            checksum: "286e2e13f5e3fd1fecd0f213e055e883161fc0bb39379109bbe20b43f83a9655"
         ),
         .target(
             name: "AppHarbrNimbusAdapterKit",
